@@ -4,7 +4,7 @@ const AccountData_1 = require("./AccountData");
 const StripeError_1 = require("./StripeError");
 const utils_1 = require("./utils");
 const customers_1 = require("./customers");
-const log = require("loglevel");
+const log = require("../../pre-bundled/node_modules/loglevel");
 var subscriptions;
 (function (subscriptions) {
     const accountSubscriptions = new AccountData_1.AccountData();

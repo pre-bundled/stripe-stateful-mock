@@ -3,13 +3,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
-const body_parser_1 = __importDefault(require("body-parser"));
+const express_1 = __importDefault(require("../pre-bundled/node_modules/express"));
+const body_parser_1 = __importDefault(require("../pre-bundled/node_modules/body-parser"));
 const routes_1 = require("./routes");
 const StripeError_1 = require("./api/StripeError");
 const idempotency_1 = require("./api/idempotency");
 const auth_1 = require("./api/auth");
-const log = require("loglevel");
+const log = require("../pre-bundled/node_modules/loglevel");
 function createExpressApp() {
     const app = express_1.default();
     app.use(body_parser_1.default.urlencoded({ extended: true }));

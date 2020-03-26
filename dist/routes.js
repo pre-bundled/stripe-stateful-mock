@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
+const express_1 = __importDefault(require("../pre-bundled/node_modules/express"));
 const auth_1 = require("./api/auth");
 const accounts_1 = require("./api/accounts");
 const charges_1 = require("./api/charges");

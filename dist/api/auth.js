@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const basicAuthParser = require("basic-auth");
+const basicAuthParser = require("../../pre-bundled/node_modules/basic-auth");
 var auth;
 (function (auth) {
     function authRoute(req, res, next) {

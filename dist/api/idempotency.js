@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const deepEqual = require("deep-equal");
-const log = require("loglevel");
+const deepEqual = require("../../pre-bundled/node_modules/deep-equal");
+const log = require("../../pre-bundled/node_modules/loglevel");
 const utils_1 = require("./utils");
 const StripeError_1 = require("./StripeError");
 const AccountData_1 = require("./AccountData");

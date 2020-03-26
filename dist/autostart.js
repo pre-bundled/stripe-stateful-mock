@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const log = require("loglevel");
+const log = require("../pre-bundled/node_modules/loglevel");
 const _1 = require("./");
 // This script starts the server automatically using env vars to control configuration.
 log.setDefaultLevel("info");

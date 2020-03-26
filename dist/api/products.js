@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const log = require("loglevel");
+const log = require("../../pre-bundled/node_modules/loglevel");
 const AccountData_1 = require("./AccountData");
 const utils_1 = require("./utils");
 const verify_1 = require("./verify");
