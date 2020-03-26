@@ -1,5 +1,5 @@
 {
-  "name": "stripe-stateful-mock",
+  "name": "@pre-bundled/stripe-stateful-mock",
   "version": "0.0.12",
   "description": "A half-baked, stateful Stripe mock server",
   "main": "dist/index.js",
@@ -32,13 +32,7 @@
     "url": "https://github.com/Giftbit/stripe-stateful-mock/issues"
   },
   "homepage": "https://github.com/Giftbit/stripe-stateful-mock#readme",
-  "dependencies": {
-    "basic-auth": "^2.0.1",
-    "body-parser": "^1.19.0",
-    "deep-equal": "^1.1.0",
-    "express": "^4.17.1",
-    "loglevel": "^1.6.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/basic-auth": "^1.1.2",
     "@types/body-parser": "^1.17.1",
@@ -58,5 +52,6 @@
     "stripe": "^7.9.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
-  }
+  },
+  "peerDependencies": {}
 }
